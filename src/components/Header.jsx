@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function Header() {
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState("buttons");
   return (
     <header className="bg-[#FAFBFD] h-full lg:w-[237px] py-5 px-3 lg:px-10 flex flex-col gap-48 shadow-md">
       <h1 className="text-[#090F31] font-poppins font-semibold text-xs md:text-base">

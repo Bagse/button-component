@@ -13,8 +13,9 @@ function App() {
 
         <section>
           <Routes>
-            <Route path="buttons" element={<ButtonPage />} />
-            <Route path="soon" element={<PageSoon />} />
+            <Route path="/" element={<ButtonPage />} />
+            <Route path="/buttons" element={<ButtonPage />} />
+            <Route path="/soon" element={<PageSoon />} />
           </Routes>
         </section>
       </div>
